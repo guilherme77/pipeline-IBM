@@ -4,8 +4,8 @@ on: [push]
 
 jobs:
   build:
-  runs-on: ubuntu-20.04
-  
+    runs-on: ubuntu-20.04
+
     steps:
     - name: Roda um escript shell
       run: echo "Olá git actions"
