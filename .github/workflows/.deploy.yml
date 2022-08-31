@@ -9,3 +9,11 @@ jobs:
     steps:
     - name: Roda um escript shell
       run: echo "Olá git actions"
+
+test:
+  build:
+    runs-on: ubuntu-20.04
+    needs: build
+    steps:
+    - name: Roda um escript shell
+      run: echo "Olá git actions"
