@@ -7,12 +7,12 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - name: Roda um escript shell
-      run: echo "Olá git actions"
+    - name: Validando o pacote Java
+      run: mvn package -Dmaven.test.skip
 
   test:
     runs-on: ubuntu-20.04
     needs: build
     steps:
-    - name: Roda um escript shell
-      run: echo "Olá git actions"
+    - name: Roda o teste de unidade
+      run: mvn test
