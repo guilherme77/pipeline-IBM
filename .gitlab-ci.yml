@@ -12,5 +12,4 @@ build:
 test:
   stage: test
   script:
-  - echo "Olar IBM"
-  - echo "Turma 2 IBM!!"
+  - mvn test
