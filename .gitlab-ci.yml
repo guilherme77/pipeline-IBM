@@ -1,5 +1,9 @@
 job:
   script:
   - echo "Olar IBM"
-  - echo "Turma 2 IBM"
-  
+  - echo "Turma 2 IBM!!"
+
+  build:
+    script:
+    - echo "2 -Olar IBM"
+    - echo "2 -Turma 2 IBM!!"
