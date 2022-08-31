@@ -9,6 +9,8 @@ jobs:
     steps:
     - name: dados do diretório
       run: ls -la ../
+
+    - name: dados do diretório
       run: pwd
 
     - name: Validando o pacote Java
