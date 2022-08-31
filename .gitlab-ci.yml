@@ -1,13 +1,15 @@
 stages:
 - build
-- teste
+- test
 
-teste:
+build:
+  stage: build
   script:
   - echo "Olar IBM"
   - echo "Turma 2 IBM!!"
 
-build:
+test:
+  stage: test
   script:
   - echo "Olar IBM"
   - echo "Turma 2 IBM!!"
