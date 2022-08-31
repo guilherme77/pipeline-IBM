@@ -10,8 +10,7 @@ jobs:
     - name: Roda um escript shell
       run: echo "Olá git actions"
 
-test:
-  build:
+  test:
     runs-on: ubuntu-20.04
     needs: build
     steps:
