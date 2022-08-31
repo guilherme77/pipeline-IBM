@@ -1,4 +1,8 @@
-job:
+stages:
+- build
+- teste
+
+teste:
   script:
   - echo "Olar IBM"
   - echo "Turma 2 IBM!!"
